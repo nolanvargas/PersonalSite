@@ -17,13 +17,13 @@ Fonts are separated by a | */
   --paragraph-font: Lato, 'Quicksand', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396e94; /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
-  --paragraph-color-on-white: #396e94; /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: #396e94;
-  --nav-link-color: #396e94;
-  --nav-background-color: #d4ac0d;
+  --headline-color-on-white: #22223b; /* headlines on a white background */
+  --headline-color-on-color: #f2e9e4; /* headlines on a colored background */
+  --paragraph-color-on-white: #4a4e69; /* paragraph text on a white background */
+  --paragraph-color-on-color: #F2E9E4; /* paragraph text on a colored background */
+  --paragraph-background-color: #22223b;
+  --nav-link-color: #f2e9e4;
+  --nav-background-color: #22223b;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396e94;
 }
