@@ -1,24 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Quicksand:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Quicksand:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #background {
-    background-image: url("braden-jarvis-prSogOoFmkw-unsplash.jpg");
-    width: 100vw;
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -2;
+  background-image: url("braden-jarvis-prSogOoFmkw-unsplash.jpg");
+  width: 99vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
 }
 
 /*
@@ -26,31 +29,31 @@ body {
 */
 
 nav {
-    padding-left: 50px;
-    padding-right: 50px;
-    display: grid;
-    grid-template-columns: 500px 1fr 100px 100px 100px;
-    grid-template-rows: 50px;
-    background: rgba(0,0,0,0.5);
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: 500px 1fr 100px 100px 100px 100px;
+  grid-template-rows: 50px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 nav h3 {
-    padding-left: 10px;
-    justify-self: left;
-    align-self: center;
-    font-size: 2.5rem;
-    color: #F2E9E4;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+  padding-left: 10px;
+  justify-self: left;
+  align-self: center;
+  font-size: 2.5rem;
+  color: #f2e9e4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
 }
 
 nav a {
-    justify-self: center;
-    align-self: center;
-    font-family: 'Montserrat', sans-serif;
-    color: #F2E9E4;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
+  justify-self: center;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  color: #f2e9e4;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 /*
@@ -58,46 +61,46 @@ nav a {
 */
 
 #homePageLink {
-    grid-column: 3;
+  grid-column: 3;
 }
 
 #homepage {
-    max-height: 100vh;
+  max-height: 100vh;
 }
 
 #homeContent {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 60vh 50px 1fr;
-    grid-template-columns: 1fr 1fr;
-    background: rgba(0,0,0,0.5);
-    overflow: hidden;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 60vh 50px 1fr;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
 #homeContent h1 {
-    grid-area: 2/1/2/1;
-    color: #F2E9E4;
-    justify-self: center;
-    align-self: center;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 100;
-    letter-spacing: .12rem;
+  grid-area: 2/1/2/1;
+  color: #f2e9e4;
+  justify-self: center;
+  align-self: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.12rem;
 }
 
 #toResume {
-    grid-area: 2/2/2/2;
-    margin-left: 35%;
-    margin-right: 35%;
-    border: 3px solid #9A8C98;
-    color: #F2E9E4;
-    letter-spacing: .1rem;
-    font-size: .9rem;
-    font-weight: bolder;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    line-height: calc(3.3rem - .6rem);
+  grid-area: 2/2/2/2;
+  margin-left: 35%;
+  margin-right: 35%;
+  border: 3px solid #9a8c98;
+  color: #f2e9e4;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  font-weight: bolder;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  line-height: calc(3.3rem - 0.6rem);
 }
 
 /* 
@@ -105,35 +108,35 @@ nav a {
 */
 
 #about {
-    display: grid;
-    grid-template-rows: 10vh 5vh 5vh 35vh 30vh 15vh ;
-    background-color: #4A4E69;
-    color: #F2E9E4;
-    font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-rows: 10vh 5vh 5vh 35vh 30vh 15vh;
+  background-color: #4a4e69;
+  color: #f2e9e4;
+  font-family: "Montserrat", sans-serif;
 }
 
 #about h1 {
-    grid-row: 2;
-    justify-self: center;
-    justify-content: center;
-    font-weight: 400;
+  grid-row: 2;
+  justify-self: center;
+  justify-content: center;
+  font-weight: 400;
 }
 
 #about img {
-    height: 35vh;
-    grid-row: 4;
-    justify-self: center;
-    justify-content: center;
+  height: 35vh;
+  grid-row: 4;
+  justify-self: center;
+  justify-content: center;
 }
 
-#about p{
-    grid-row: 5;
-    justify-self: center;
-    text-align: center;
-    font-size: 1.5em;
-    padding-left: 20vw;
-    padding-right: 20vw;
-    padding-top: 5vh;
+#about p {
+  grid-row: 5;
+  justify-self: center;
+  text-align: center;
+  font-size: 1.5em;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 5vh;
 }
 
 /*
@@ -141,15 +144,14 @@ nav a {
 */
 
 #resume {
-    background-color: #9A8C98;
-    height: 100vh;
-    width: 100vw;
-    display: grid;
+  background-color: #9a8c98;
+  height: 100vh;
+  display: grid;
 }
 
 #resume iframe {
-    padding-left: 10vw;
-    padding-top: 5vh;;
+  padding-left: 10vw;
+  padding-top: 5vh;
 }
 
 /* 
@@ -157,33 +159,38 @@ nav a {
 */
 
 footer {
-    background-color: #22223B;
-    height: 30vh;
-    display: grid;
-    grid-template-rows: 12.5vh 5vh 12.5vh;
-    grid-template-columns: 20vw 20vw 20vw 1fr;
+  background-color: #22223b;
+  height: 30vh;
+  display: grid;
+  grid-template-rows: 13vh 4vh 13h;
+  grid-template-columns: 20vw 20vw 20vw 1fr;
+}
+
+footer a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 footer img {
-    height: 25px;
-    -webkit-filter: invert(1);
-   filter: invert(1);
+  height: 25px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 footer h4 {
-    color: #F2E9E4;
-    font-family: 'Montserrat', sans-serif;
-    display: inline;
+  color: #f2e9e4;
+  font-family: "Montserrat", sans-serif;
+  display: inline;
 }
 
 #instagram {
-    grid-area: 2/2/2/2;
+  grid-area: 2/2/2/2;
 }
 
 #github {
-    grid-area: 2/3/2/3;
+  grid-area: 2/3/2/3;
 }
 
 #email {
-    grid-area: 2/4/2/4;
+  grid-area: 2/4/2/4;
 }
