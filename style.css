@@ -32,7 +32,7 @@ nav {
   padding-left: 50px;
   padding-right: 50px;
   display: grid;
-  grid-template-columns: 500px 1fr 100px 100px 100px 100px;
+  grid-template-columns: 500px 1fr 100px 100px 100px 100px 100px;
   grid-template-rows: 50px;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -103,6 +103,7 @@ nav a {
   line-height: calc(3.3rem - 0.6rem);
 }
 
+#spotifyproject
 /* 
     -----------------About--------------------
 */
